@@ -1,0 +1,39 @@
+
+  h1 {
+    background-color: #333;
+    padding: 10px;
+    width: 96%;
+    margin: 10px auto;
+  }
+  
+  #filter {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 10px auto;
+
+    p {
+        font-size: 16px;
+        margin-bottom: 8px;
+        text-align: center;
+      }
+  }
+  
+  #idFilter {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #333;
+  }
+  
+  #idFilter:focus {
+    outline: none;
+    border-color: #5a9bd5;
+  }
+  

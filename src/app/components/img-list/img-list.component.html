@@ -1,0 +1,6 @@
+<section id="imgList">
+    <div *ngFor="let img of imgList" class="img-item">
+        <p class="img-text">{{img.text}}</p>
+        <img [src]="img.photo" [alt]="img.text" class="img-photo">
+    </div>
+</section>

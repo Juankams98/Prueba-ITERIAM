@@ -1,0 +1,24 @@
+
+section {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 96%;
+    margin: auto;
+
+    div{
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+
+        p{
+            height: 50px;
+        }
+
+        img {
+            margin: 5px;
+        }
+    }
+}
